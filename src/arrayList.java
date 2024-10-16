@@ -40,19 +40,19 @@ public class arrayList {
             System.out.println("Iterator" + iterator.next()); // .next helps to next elements
         }
         // Remove the element
-//        list.remove(1); // This will remove the 1st index by position
-//        System.out.println(list);
-//
-//        list.remove(Integer.valueOf(120)); // this will remove the element
-//        System.out.println(list);
-//
-//        list.clear(); // This will remove all elements from the list
-//        System.out.println(list);
+        list.remove(1); // This will remove the 1st index by position
+        System.out.println(list);
 
-//        list.set(2, 1000); // This will update the value
-//        System.out.println(list);
-//
-//        System.out.println(list.contains(120)); // This will return boolean
-//        System.out.println(list.contains(150));
+        list.remove(Integer.valueOf(120)); // this will remove the element
+        System.out.println(list);
+
+        list.clear(); // This will remove all elements from the list
+        System.out.println(list);
+
+        list.set(2, 1000); // This will update the value
+        System.out.println(list);
+
+        System.out.println(list.contains(120)); // This will return boolean
+        System.out.println(list.contains(150));
     }
 }
